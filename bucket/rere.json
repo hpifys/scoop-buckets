@@ -9,5 +9,11 @@
     "ReRe.ini",
     "Statistic.ini"
   ],
-  "bin": "ReRe.exe"
+  "bin": "ReRe.exe",
+  "shortcuts": [
+    [
+      "ReRe.exe",
+      "ReRe"
+    ]
+  ]
 }
