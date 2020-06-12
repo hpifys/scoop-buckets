@@ -3,6 +3,9 @@
   "version": "7.2.17",
   "description": "你的邮件，现在有了新看法",
   "url": "https://dldir1.qq.com/foxmail/windows/FoxmailSetup_$version.58.exe#/dl.7z",
+  "persist": [
+    "Storage"
+  ],
   "shortcuts": [
     [
       "Foxmail.exe",
