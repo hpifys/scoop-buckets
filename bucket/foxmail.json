@@ -6,7 +6,8 @@
   "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
   "persist": [
     "Storage",
-    "Global"
+    "Global",
+    "FMStorage.list"
   ],
   "shortcuts": [
     [
