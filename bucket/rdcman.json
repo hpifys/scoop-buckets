@@ -1,0 +1,15 @@
+{
+  "version": "1.0.1",
+  "description": "Remote Desktop Connection Manager (RDCMan)",
+  "url": "https://github.com/hpifys/scoop-pocket/releases/download/1.0.1/rdcman.7z",
+  "bin": "RDCMan.exe",
+  "persist": [
+    "pp_win_server.rdg"
+  ],
+  "shortcuts": [
+    [
+      "RDCMan.exe",
+      "RDCMan"
+    ]
+  ]
+}
