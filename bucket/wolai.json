@@ -1,8 +1,8 @@
 {
-  "version": "1.0.34",
+  "version": "1.0.37",
   "description": "类Notion的笔记本应用",
   "homepage": "https://www.wolai.com/",
-  "url": "https://static2.wolai.com/dist/installers/wolai%20Setup%201.0.34.exe#/dl.7z",
+  "url": "https://static2.wolai.com/dist/installers/wolai%20Setup%201.0.37.exe#/dl.7z",
   "architecture": {
     "64bit": {
       "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
