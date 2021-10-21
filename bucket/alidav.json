@@ -1,0 +1,20 @@
+{
+  "version": "0.4.6",
+  "description": "Aliyun WebDav Impl",
+  "homepage": "https://github.com/messense/aliyundrive-webdav",
+  "architecture": {
+    "64bit": "https://github.com/messense/aliyundrive-webdav/releases/download/v0.4.6/aliyundrive-webdav-v0.4.6.windows-x64.zip",
+  },
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": "https://github.com/messense/aliyundrive-webdav/releases/download/v$version/aliyundrive-webdav-v$version.windows-x64.zip"
+    }
+  },
+  "bin": [
+    [
+      "aliyundrive-webdav.exe",
+      "alidav"
+    ]
+  ]
+}
