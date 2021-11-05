@@ -1,11 +1,11 @@
 {
-    "version": "0.4.7",
+    "version": "0.5.2",
     "description": "Aliyun WebDav Impl",
     "homepage": "https://github.com/messense/aliyundrive-webdav",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v0.4.7/aliyundrive-webdav-v0.4.7.windows-x64.zip",
-            "hash": "32ef185a9db3e0d265c059c2d7e2e00a5c744f3e6f311a8da1a83cdb4985b69c"
+            "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v0.5.2/aliyundrive-webdav-v0.5.2.windows-x64.zip",
+            "hash": "e17cfb48180f66547547e73298a0ba98ecaf7182a395573e63c77c66e607b777"
         }
     },
     "checkver": "github",
