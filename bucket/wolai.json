@@ -1,8 +1,8 @@
 {
-  "version": "1.1.3",
+  "version": "1.2.0",
   "description": "类Notion的笔记本应用",
   "homepage": "https://www.wolai.com/",
-  "url": "https://static2.wolai.com/dist/installers/wolai%20Setup%201.1.3.exe#/dl.7z",
+  "url": "https://static2.wolai.com/dist/installers/wolai%20Setup%201.2.0.exe#/dl.7z",
   "architecture": {
     "64bit": {
       "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
@@ -15,10 +15,5 @@
     }
   },
   "bin": "wolai.exe",
-  "shortcuts": [
-    [
-      "wolai.exe",
-      "wolai"
-    ]
-  ]
+  "shortcuts": [["wolai.exe", "wolai"]]
 }
