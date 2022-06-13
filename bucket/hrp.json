@@ -1,8 +1,8 @@
 {
-  "version": "4.1.1",
+  "version": "4.1.2",
   "description": "开源的 API 测试工具",
   "homepage": "https://httprunner.com/",
-  "url": "https://github.com/httprunner/httprunner/releases/download/v4.1.1/hrp-v4.1.1-windows-amd64.tar.gz#dl.7z",
+  "url": "https://github.com/httprunner/httprunner/releases/download/v4.1.2/hrp-v4.1.2-windows-amd64.tar.gz#dl.7z",
   "checkver": {
     "github": "https://github.com/httprunner/httprunner/"
   },
