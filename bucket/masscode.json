@@ -4,7 +4,10 @@
   "homepage": "https://masscode.io/",
   "url": "https://github.com/massCodeIO/massCode/releases/download/v2.9.0/massCode.Setup.2.9.0.exe#/dl.7z",
   "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-  "post_install":"Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+  "post_install":[
+    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+    "Remove-Item \"$dir\\`$R0\" -Recurse"
+  ],
   "checkver": {
     "github": "https://github.com/massCodeIO/massCode"
   },
