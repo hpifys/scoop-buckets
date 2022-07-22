@@ -1,26 +1,33 @@
 {
-  "version": "2.9.0",
-  "description": "A free and open source code snippets manager for developers. It helps you create and organize your own personal snippets collection and have quick access to it.",
-  "homepage": "https://masscode.io/",
-  "url": "https://github.com/massCodeIO/massCode/releases/download/v2.9.0/massCode.Setup.2.9.0.exe#/dl.7z",
-  "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-  "post_install":[
-    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
-    "Remove-Item \"$dir\\`$R0\" -Recurse"
-  ],
-  "checkver": {
-    "github": "https://github.com/massCodeIO/massCode"
-  },
-  "autoupdate": {
+    "version": "2.10.0",
+    "description": "A free and open source code snippets manager for developers. It helps you create and organize your own personal snippets collection and have quick access to it.",
+    "homepage": "https://masscode.io/",
     "architecture": {
-      "64bit": "https://github.com/massCodeIO/massCode/releases/download/v$version/massCode.Setup.$version.exe#/dl.7z"
-    }
-  },
-  "bin": "massCode.exe",
-  "shortcuts":[
-    [
-      "massCode.exe",
-      "massCode"
+        "64bit": {
+            "url": "https://github.com/massCodeIO/massCode/releases/download/v2.10.0/massCode.Setup.2.10.0.exe#/dl.7z",
+            "hash": "270e1eb5883ce8001eb5faf8325154e981d690248536843ebf88ac64c32e3245"
+        }
+    },
+    "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+        "Remove-Item \"$dir\\`$R0\" -Recurse"
+    ],
+    "checkver": {
+        "github": "https://github.com/massCodeIO/massCode"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/massCodeIO/massCode/releases/download/v$version/massCode.Setup.$version.exe#/dl.7z"
+            }
+        }
+    },
+    "bin": "massCode.exe",
+    "shortcuts": [
+        [
+            "massCode.exe",
+            "massCode"
+        ]
     ]
-  ]
 }
