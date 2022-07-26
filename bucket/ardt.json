@@ -10,7 +10,9 @@
   },
   "autoupdate": {
     "architecture": {
-      "64bit": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager.$version.exe#/dl.7z"
+      "64bit": {
+        "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager.$version.exe#/dl.7z"
+      }
     }
   },
   "shortcuts": [
