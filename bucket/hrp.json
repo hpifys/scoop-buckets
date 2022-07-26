@@ -9,9 +9,11 @@
   },
   "autoupdate": {
     "architecture": {
-      "64bit": "https://github.com/httprunner/httprunner/releases/download/v$version/hrp-v$version-windows-amd64.tar.gz#/dl.7z"
-    },
-    "hash": "https://github.com/httprunner/httprunner/releases/download/v$version/hrp-v$version-windows-amd64.tar.gz.md5"
+      "64bit": {
+        "url": "https://github.com/httprunner/httprunner/releases/download/v$version/hrp-v$version-windows-amd64.tar.gz#/dl.7z",
+        "hash": "https://github.com/httprunner/httprunner/releases/download/v$version/hrp-v$version-windows-amd64.tar.gz.md5"
+      }
+    }
   },
   "bin": "hrp.exe"
 }
