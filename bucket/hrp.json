@@ -2,8 +2,12 @@
   "version": "4.1.6",
   "description": "开源的 API 测试工具",
   "homepage": "https://httprunner.com/",
-  "url": "https://github.com/httprunner/httprunner/releases/download/v4.1.6/hrp-v4.1.6-windows-amd64.tar.gz#/dl.7z",
-  "hash": "md5:809d9746daab89d6615dd297d6c88093",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/httprunner/httprunner/releases/download/v4.1.6/hrp-v4.1.6-windows-amd64.tar.gz#/dl.7z",
+      "hash": "md5:809d9746daab89d6615dd297d6c88093"
+    }
+  },
   "checkver": {
     "github": "https://github.com/httprunner/httprunner"
   },

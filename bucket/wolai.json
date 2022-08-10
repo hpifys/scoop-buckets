@@ -2,12 +2,13 @@
   "version": "1.2.3",
   "description": "类Notion的笔记本应用",
   "homepage": "https://www.wolai.com/",
-  "url": "https://static2.wolai.com/dist/installers/wolai%20Setup%201.2.3.exe#/dl.7z",
   "architecture": {
     "64bit": {
-      "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+      "url": "https://static2.wolai.com/dist/installers/wolai%20Setup%201.2.3.exe#/dl.7z",
+      "hash": ""
     }
   },
+  "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
   "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
   "autoupdate": {
     "architecture": {

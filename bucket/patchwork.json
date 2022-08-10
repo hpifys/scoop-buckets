@@ -20,10 +20,5 @@
     "url": "https://github.com/ssbc/patchwork/releases/download/v$version/Patchwork-Setup-$version.exe#/dl.7z"
   },
   "bin": "Patchwork.exe",
-  "shortcuts": [
-    [
-      "Patchwork.exe",
-      "Patchwork"
-    ]
-  ]
+  "shortcuts": [["Patchwork.exe", "Patchwork"]]
 }
