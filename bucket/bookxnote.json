@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0.1094-20220728",
+  "description": "笔记整理交给我，一心只读圣贤书",
+  "homepage": "http://www.bookxnote.com/",
+  "architecture": {
+    "64bit": {
+      "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x64-2.0.0.1094-20220728.zip",
+      "hash": "fe696e83c8d25972de145a145e44e0e4bbe1393dcc3520d66a49c810ecdb3f83"
+    }
+  },
+  "pre_install": [
+    "Rename-Item \"$dir\\bookxnotepro-windows-x64-$version.exe\" $dir\\dl.7z",
+    "Expand-7zipArchive \"$dir\\dl.7z\" \"$dir\""
+  ],
+  "post_install": [
+    "Remove-Item \"$dir\\dl.7z\"",
+    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+  ],
+  "shortcuts": [["BookxNotePro.exe", "BookxNotePro"]]
+}
