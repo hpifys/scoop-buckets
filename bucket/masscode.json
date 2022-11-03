@@ -1,11 +1,11 @@
 {
-    "version": "3.3.0",
+    "version": "3.4.1",
     "description": "A free and open source code snippets manager for developers. It helps you create and organize your own personal snippets collection and have quick access to it.",
     "homepage": "https://masscode.io/",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/massCodeIO/massCode/releases/download/v3.3.0/massCode.Setup.3.3.0.exe#/dl.7z",
-            "hash": "46e81888a59df45215185f1ed8a7f5ba3b419cb9ce00a760b2c3860c77845e56"
+            "url": "https://github.com/massCodeIO/massCode/releases/download/v3.4.1/massCode.Setup.3.4.1.exe#/dl.7z",
+            "hash": "818ac884564846a9971caf660d66f7a9b0c03fb9453942bc95801dcbd9392929"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
