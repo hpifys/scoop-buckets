@@ -1,25 +1,36 @@
 {
-  "version": "14.6.13",
-  "description": "an online diagramming web site",
-  "homepage": "https://github.com/jgraph/drawio",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/jgraph/drawio-desktop/releases/download/v14.6.13/draw.io-14.6.13-windows-no-installer.exe#/dl.7z",
-      "hash": ""
-    }
-  },
-  "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-  "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
-  "checkver": {
-    "github": "https://github.com/jgraph/drawio-desktop"
-  },
-  "autoupdate": {
+    "version": "20.6.2",
+    "description": "an online diagramming web site",
+    "homepage": "https://github.com/jgraph/drawio",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-$version-windows-no-installer.exe#/dl.7z"
-      }
-    }
-  },
-  "bin": ["draw.io.exe", ["draw.io.exe", "drawio"]],
-  "shortcuts": [["draw.io.exe", "draw.io"]]
+        "64bit": {
+            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.6.2/draw.io-20.6.2-windows-no-installer.exe#/dl.7z",
+            "hash": "c29a631f5044fd9a533800392f01edc7fc28808a1dc646848b1449604470523b"
+        }
+    },
+    "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+    "checkver": {
+        "github": "https://github.com/jgraph/drawio-desktop"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-$version-windows-no-installer.exe#/dl.7z"
+            }
+        }
+    },
+    "bin": [
+        "draw.io.exe",
+        [
+            "draw.io.exe",
+            "drawio"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "draw.io.exe",
+            "draw.io"
+        ]
+    ]
 }
