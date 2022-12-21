@@ -1,10 +1,10 @@
 {
-  "version": "2.0.0.1098-20221021",
+  "version": "2.0.0.1101-20221220",
   "description": "笔记整理交给我，一心只读圣贤书",
   "homepage": "http://www.bookxnote.com/",
   "architecture": {
     "64bit": {
-      "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x64-2.0.0.1098-20221021.zip",
+      "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x64-2.0.0.1101-20221220.zip",
       "hash": ""
     }
   },
